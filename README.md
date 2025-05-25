@@ -17,8 +17,8 @@
 
 To use the application, the following AWS credentials are required:
 
-1. AWS Account ID  
-2. AWS Access Key  
+1. AWS Account ID
+2. AWS Access Key
 3. AWS Secret Key
 
 > These credentials are used only in memory during the session. The application does not persist, transmit, or store any data.
@@ -29,10 +29,10 @@ To use the application, the following AWS credentials are required:
 
 1. Clone the repository:
 
-   ```bash
+```bash
    git clone https://github.com/dsrathore1/ec2-manager.git
    cd ec2-manager
-````
+```
 
 2. Open the project folder in Visual Studio Code.
 
@@ -64,8 +64,8 @@ docker run -p 3000:80 ghcr.io/dsrathore1/ec2-manager-ui:1.0
 
 This project uses GitHub Actions to:
 
-* Build and validate Docker images
-* Publish images to GitHub Container Registry (`ghcr.io`)
+- Build and validate Docker images
+- Publish images to GitHub Container Registry (`ghcr.io`)
 
 CI configuration is available in `.github/workflows/`.
 
@@ -74,4 +74,5 @@ CI configuration is available in `.github/workflows/`.
 This project is licensed under the [MIT License](LICENSE). You are free to use, modify, and distribute this software in accordance with the terms of the license.
 
 ## Author
-Developed by **DS Rathore**
+
+Enhanced by **DS Rathore**
